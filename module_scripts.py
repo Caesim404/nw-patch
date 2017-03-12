@@ -14292,7 +14292,6 @@ scripts = [
            (player_is_active, ":agent_group"),
            (player_get_banner_id, ":player_banner", ":agent_group"),
            (ge, ":player_banner", 0),
-           (le, ":player_banner", 72),
            (store_add, ":banner_mesh", ":player_banner", arms_meshes_begin),
            (assign, ":already_used", 0),
            (try_for_range, ":cur_faction", factions_begin, factions_end), #wrong client data check
